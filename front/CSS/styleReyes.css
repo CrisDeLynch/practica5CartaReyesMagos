@@ -1,0 +1,89 @@
+/* Estilo para el formulario de reyes */
+#formReyes {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los campos de texto dentro del formulario */
+#formReyes input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilo para el botón de envío del formulario */
+#formReyes button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Estilo para el botón cuando se pasa el ratón */
+#formReyes button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para la tabla de reyes */
+#listaReyes table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+/* Estilo para las filas y celdas de la lista */
+#listaReyes th, #listaReyes td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Estilo para los encabezados de la tabla de reyes */
+#listaReyes thead {
+    background-color: #f2f2f2;
+}
+
+/* Estilo para los botones de acción de la tabla de reyes */
+#listaReyes button {
+    padding: 5px 10px;
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+}
+
+#listaReyes button:hover {
+    background-color: #e07b00;
+}
+
+/* Estilo específico para el botón "+" */
+#listaReyes .btn-agregar {
+    background-color: green;
+}
+
+#listaReyes .btn-agregar:hover {
+    background-color: #3b8e00;
+}
+
+/* Estilo específico para el botón "-" */
+#listaReyes .btn-eliminar {
+    background-color: red;
+}
+
+#listaReyes .btn-eliminar:hover {
+    background-color: #b30000;
+}

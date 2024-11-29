@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Crear Juguete</title>
+    <script src="../JS/scriptJuguete.js" defer></script>
+
+</head>
+<body>
+    <div class="contenedor">
+        <form id="formJuguete">
+            <label>Nombre:</label>
+            <input type="text" id="nombre">
+            <label>Imagen:</label>
+            <div class="custom-file-input">
+                <input type="text" id="nombreArchivo" placeholder="Selecciona una imagen" readonly>
+                <button type="button" id="botonBuscar">Buscar</button>
+            </div>
+            <input type="file" id="fotoArchivo" accept="image/png">
+            <button type="submit" id="crearJuguete">Enviar</button>
+            <button type="button" id="volver">Volver</button>
+        </form>
+        <div id="listaJuguetes"></div>
+    </div>
+</body>
+</html>

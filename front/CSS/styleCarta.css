@@ -1,0 +1,157 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  background: url('../Kids-Christmas-Present-Gift-Fantasy-Background-With-Snowflakes-49991528-1.png');
+  background-repeat: repeat;
+  background-size: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+}
+
+.carta {
+  margin-top: 100px;
+  margin-right: 120px;
+  width: 90%;
+  max-width: 500px;
+  padding: 20px;
+  border: 2px solid rgb(237, 193, 111);
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+#listaCarta {
+  padding: 0;
+  margin: 10px 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+#listaCarta li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  word-wrap: break-word;
+}
+
+#listaCarta img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+#listaCarta p {
+  margin: 5px 0 0;
+  font-size: 12px;
+}
+
+.principal {
+  margin-top: 90px;
+  margin-left: 90px;
+  background-color: #a6d9f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  float: left;
+
+}
+
+.form-container,
+.buscador,
+.carta {
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+select,
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.juguetes-container {
+  width: 250px;
+  max-height: 200px;
+  overflow-y: auto;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.juguete {
+  width: 120px;
+  text-align: center;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-left: 50px;
+}
+
+
+.juguete img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+
+.carta {
+  background-color: #fffbe6;
+  padding: 20px;
+  border-radius: 10px;
+  float: right;
+  width: 800px;
+  height: 400px;
+
+
+}
+
+button {
+  padding: 10px 20px;
+  background-color: rgb(247, 161, 0);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button.eliminar {
+  background-color: rgb(255, 85, 85);
+  color: white;
+}
+
+.botones {
+  margin-top: 20px;
+}
+

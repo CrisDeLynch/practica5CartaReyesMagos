@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carta a los Reyes Magos</title>
+  <link rel="stylesheet" href="../CSS/styleCarta.css">
+  <script src="../JS/scriptCarta.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Carta a los Reyes Magos</h1>
+    <div class="principal">
+      <label for="usuario">Nombre:</label>
+      <select id="usuario">
+      </select>
+
+      <label for="rey">Rey Mago:</label>
+      <select id="rey"></select>
+
+
+      <div class="buscador">
+        <input type="text" id="buscarJuguete" placeholder="Buscador Juguete">
+        <div id="listaJuguetes" class="juguetes-container">
+        </div>
+
+        <div class="botones">
+          <button id="crearCarta">Crear carta</button>
+          <button type="button" id="volver">Volver</button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="carta">
+      <p>Querido Rey: <span id="nombreRey"></span></p>
+      <p>Soy <span id="nombreUsuario"></span> y tengo <span id="edadUsuario"></span> años. Me gustaría:</p>
+      <ul id="listaCarta"></ul>
+      <p>Gracias.</p>
+    </div>
+  </div>
+</body>
+</html>
